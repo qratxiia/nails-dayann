@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.fondopagina {
+	background-color: #fcfbf9; 
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+.encabezado, .menudecontenido {
+	background-color: rgba(255, 255, 255);
+	width: 80%;
+	max-width: 1000px; 
+	padding: 10px 20px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.encabezado {
+	border-color: rgba(221, 198, 167, 1); 
+	border-width: 2px;
+	border-style: solid;
+}
+#logotexto {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px; 
+}
+#TITULOPRINCIPAL {
+	text-align: left; 
+}
+.E {
+	color: rgba(221, 198, 167, 1); 
+	font-family: 'Monotype Corsiva', cursive;
+}
+.Nai {
+	color: #c3c3c3;
+	font-family: 'Monotype Corsiva', cursive; 
+}
+.menu-navegacion {
+	display: flex;
+	gap: 20px;
+}
+.enlace-nav, .destacado {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.botones-accion {
+	margin-top: 15px;
+}
+.btn-principal, .btn-secundario {
+	text-decoration: none;
+	font-family: 'Segoe UI', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 8px 16px;
+	display: inline-block;
+	margin-right: 10px;
+}
+.btn-principal {
+	background-color: rgba(221, 198, 167, 1);
+	color: #ffffff;
+}
+.btn-secundario {
+	background-color: #ffffff;
+	border: 2px solid rgba(221, 198, 167, 1);
+	color: rgba(221, 198, 167, 1);
+}
